@@ -1,0 +1,76 @@
+body{
+	background-color:#303030;
+	text-align: center;
+}
+
+img
+{
+	width: 130px;
+	height: 130px; 
+}
+
+#contenedor {
+  		width: 700px;
+  		margin: 0 auto;  				 		  		
+		background-color:#F8F8F8;
+		overflow:hidden;
+}
+
+.cuadro
+{
+	border: 1px solid;
+	width: 130px;
+	height: 130px;
+	margin: 4px;		
+	float: left;
+	cursor: pointer;
+	border-radius: 1em;
+	box-shadow: 3px 3px 7px #777;	
+
+	background:#781b26 url(imagenes/pokebola.png) no-repeat center;	
+	background-size:50%;
+
+
+}
+
+
+
+/*
+.cuadro:hover{
+transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-webkit-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-moz-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-o-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-ms-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+}*/
+
+.opaco {
+    opacity: .6;
+    filter: alpha(opacity=60);
+}
+
+#barraStatus
+{
+    text-align: center;
+    padding: 10px;
+}
+
+.boton 
+{
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    background: #09B5E1;
+    padding: 5px 10px;
+    border-radius: .5em;
+}
+
+.boton:hover 
+{
+    background: #156C8D;
+}
+
+#dialogo, #gano
+{
+	text-align: justify;
+}

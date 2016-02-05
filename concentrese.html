@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+ 	<title>Concentrese Artistico</title>
+ 	<!--Hojas de estilo -->
+	<link rel="stylesheet" type="text/css" href="estilo.css"/>
+ 	<script type="text/javascript" src="juego_memoria.js"></script>
+  	<!--<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js">
+	</script>
+	-->	
+	<script type="text/javascript" src="jquery-1_11_0_min.js">
+	</script>
+	<!-- Para el jQ UI -->
+	<link rel="stylesheet" type="text/css" href="jq_ui/jquery-ui.theme.min.css"/>
+	<link rel="stylesheet" type="text/css" href="jq_ui/jquery-ui.min.css"/>
+	<link rel="stylesheet" type="text/css" href="jq_ui/jquery-ui.structure.min.css"/>
+	<script type="text/javascript" src="jq_ui/jquery-ui.min.js">
+	</script>
+</head>
+<body>
+	<div id = "contenedor">
+		<h1>Concentrese Artistico:</h1>
+		<div id="barraStatus">
+			<a id="reinicio" class="boton" href="#">Reiniciar Juego</a>
+			&nbsp;
+            <span id = "msgReloj" class="boton">
+                <span id = "reloj">0</span> Segundos
+            </span>
+		</div>
+		<div id="dialogo" title="Concentrese Pokémon!!!">
+			<p>
+				Preparate para buscar Pokémon!!!
+			</p>
+			<p>
+				En este juego de memoria deberas hacer click en cada casilla hasta que encuentres su pareja.
+			</p>
+		</div>
+		<div id="gano" title="Ganaste!!!">
+			<p>
+				Haz capturado todos los Pokémon!!!
+			</p>
+			<p>
+				
+			</p>
+		</div>		
+	</div>
+
+	<script type="text/javascript">
+		inicio();
+	</script>
+</body>
+</html>
